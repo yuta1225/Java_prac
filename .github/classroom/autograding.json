@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "ex1",
+      "setup": "",
+      "run": "gradle test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    }
+  ]
+}
