@@ -128,6 +128,11 @@ public class Ex1 {
 
     // 1-8
     public static void table9x9(int[] array) {
+        for (int i = 0; i < 9; i++) {
+            for(int j = 0; j < 9; j++){
+                array[(i*9)+j] = (i+1) * (j+1); 
+            }
+        }
     }
 
     // 1-9
