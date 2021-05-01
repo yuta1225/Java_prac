@@ -109,7 +109,11 @@ public class Ex1 {
 
     // 1-6
     public static int total (int[] array) {
-        return 0;
+        int sum = 0;
+        for (int i = 0; i < array.length; i++) {
+            sum += array[i];
+        }
+        return sum;
     }
 
     // 1-7
