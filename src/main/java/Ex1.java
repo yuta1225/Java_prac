@@ -118,7 +118,7 @@ public class Ex1 {
 
     // 1-7
     public static double average (int[] array) {
-        int sum = 0;
+        double sum = 0.0;
         for (int i = 0; i < array.length; i++) {
             sum += array[i];
         }
