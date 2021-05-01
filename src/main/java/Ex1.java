@@ -70,7 +70,41 @@ public class Ex1 {
 
     // 1-5
     public static int str2num (String str) {
-        return 0;
+        int n = 0;
+        if(str.equals("zero")){
+            n = 0;
+        }
+        if(str.equals("one")){
+            n = 1;
+        }
+        if(str.equals("two")){
+            n = 2;
+        }
+        if(str.equals("three")){
+            n = 3;
+        }
+        if(str.equals("four")){
+            n = 4;
+        }
+        if(str.equals("five")){
+            n = 5;
+        }
+        if(str.equals("six")){
+            n = 6;
+        }
+        if(str.equals("seven")){
+            n = 7;
+        }
+        if(str.equals("eight")){
+            n = 8;
+        }
+        if(str.equals("nine")){
+            n = 9;
+        }
+        if(str.equals("ten")){
+            n = 10;
+        }
+        return n;
     }
 
     // 1-6
