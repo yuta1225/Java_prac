@@ -167,7 +167,20 @@ public class Ex1 {
 
     // 1-11
     public static int daysOfMonth (int year, int month) {
-        return 31;
+        if (month == 1) {
+            return 31;
+        }
+        if (month == 2){
+            if(isLeapYear(year) == true){
+                return 29;
+            }else{
+                return 28;
+            }
+        }
+        if (month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12){
+            return 31;
+        }
+        return 30;
     }
 
     // 1-12
