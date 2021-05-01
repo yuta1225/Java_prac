@@ -13,13 +13,14 @@ public class Ex1 {
 
     // 1-2
     public static void assign1toN (int[] array, int N) {
-        for (int i = 0; i < array.length; i++) {
+        for (int i = 0; i < N; i++) {
             array[i] = i;
         }
     }
 
     // 1-3
     public static void assign1toNofEven (int[] array, int N) {
+
     }
 
     // 1-4
