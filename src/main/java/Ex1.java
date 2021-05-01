@@ -1,7 +1,5 @@
 import java.util.Random;
 
-import javax.management.relation.RoleInfoNotFoundException;
-
 public class Ex1 {
 
     // 1-1
@@ -22,18 +20,52 @@ public class Ex1 {
 
     // 1-3
     public static void assign1toNofEven (int[] array, int N) {
-        for(int i = 1; i < array.length; i++){
+        for(int i = 2; i < N+1; i += 2){
             if(i % 2 == 0){
                 array[(i/2)-1] = i;
-            }else{
-                
             }
         }
     }
 
     // 1-4
     public static String num2str (int n) {
-        return "zero";
+        String msg = "";
+        switch (n) {
+            case 0:
+                msg = "zero";
+                break;
+            case 1:
+                msg = "one";
+                break;
+            case 2:
+                msg = "two";
+                break;
+            case 3:
+                msg = "three";
+                break;
+            case 4:
+                msg = "four";
+                break;
+            case 5:
+                msg = "five";
+                break;
+            case 6:
+                msg = "six";
+                break;
+            case 7:
+                msg = "seven";
+                break;
+            case 8:
+                msg = "eight";
+                break;
+            case 9:
+                msg = "nine";
+                break;
+            case 10:
+                msg = "ten";
+                break;
+        }
+        return msg;
     }
 
     // 1-5
@@ -107,9 +139,6 @@ public class Ex1 {
         array = new int[5];
         assign1toNofEven(array, N);
         for (int i=0 ; i<5 ; i++) {
-            if(array[i] == 0){
-                break;
-            }
             System.out.format("%d ", array[i]);
         }
         System.out.println("");
