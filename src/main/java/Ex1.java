@@ -13,8 +13,8 @@ public class Ex1 {
 
     // 1-2
     public static void assign1toN (int[] array, int N) {
-        for (int i = 0; i < N; i++) {
-            array[i] = i;
+        for (int i = 1; i < N+1; i++) {
+            array[i-1] = i;
         }
     }
 
