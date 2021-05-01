@@ -137,7 +137,8 @@ public class Ex1 {
 
     // 1-9
     public static int dayOfWeek (int year, int month, int day) {
-        return 0;
+        int dayoftheweek = (year+year/4-year/100+year/400+(13*month+8)/5+day)%7;
+        return dayoftheweek;
     }
 
     // 1-10
