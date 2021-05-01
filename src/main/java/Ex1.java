@@ -122,7 +122,8 @@ public class Ex1 {
         for (int i = 0; i < array.length; i++) {
             sum += array[i];
         }
-        return sum / array.length;
+        float average = sum / array.length;
+        return average;
     }
 
     // 1-8
