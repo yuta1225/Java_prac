@@ -1,5 +1,6 @@
 import java.util.Random;
 
+
 public class Ex1 {
 
     // 1-1
