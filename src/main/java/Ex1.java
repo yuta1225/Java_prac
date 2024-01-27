@@ -1,7 +1,5 @@
 import java.util.Random;
 
-import javax.management.relation.RoleInfoNotFoundException;
-
 public class Ex1 {
 
     // 1-1
@@ -185,6 +183,9 @@ public class Ex1 {
 
     // 1-12
     public static void perpetualCalendar (int[] array, int year, int month) {
+        for (int day = 0; day < daysOfMonth(year, month); day++) {
+            array[dayOfWeek(year, month, day)] = dayOfWeek(year, month, day+1);
+        }
     }
 
     // 1-o1
